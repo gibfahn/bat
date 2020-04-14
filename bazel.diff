@@ -1,0 +1,24 @@
+diff --git a/bat.bak/assets/syntaxes/01_Packages/Python/Python.sublime-syntax b/bat/assets/syntaxes/01_Packages/Python/Python.sublime-syntax
+index 2acd86d..74db44b 100644
+--- a/bat.bak/assets/syntaxes/01_Packages/Python/Python.sublime-syntax
++++ b/bat/assets/syntaxes/01_Packages/Python/Python.sublime-syntax
+@@ -25,6 +25,7 @@ file_extensions:
+   - wscript
+   - bazel
+   - bzl
++  - WORKSPACE
+ first_line_match: ^#!\s*/.*\bpython(\d(\.\d)?)?\b
+ scope: source.python
+ 
+diff --git a/bat.bak/assets/syntaxes/01_Packages/ShellScript/Bash.sublime-syntax b/bat/assets/syntaxes/01_Packages/ShellScript/Bash.sublime-syntax
+index e973e31..074f33f 100644
+--- a/bat.bak/assets/syntaxes/01_Packages/ShellScript/Bash.sublime-syntax
++++ b/bat/assets/syntaxes/01_Packages/ShellScript/Bash.sublime-syntax
+@@ -32,6 +32,7 @@ file_extensions:
+   - PKGBUILD  # https://jlk.fjfi.cvut.cz/arch/manpages/man/PKGBUILD.5
+   - .ebuild
+   - .eclass
++  - .bazelrc
+ 
+ first_line_match: |
+   (?x)

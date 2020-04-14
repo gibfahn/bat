@@ -1,0 +1,5 @@
+To get bazel to work, you need to make the changes in `bazel.diff` and then `bat cache --build` to populate the cache.
+
+You can do `bat --list-languages` to check things worked.
+
+If it works, `delta` should show syntax highlighting for these filetypes.
